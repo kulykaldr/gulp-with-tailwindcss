@@ -43,21 +43,21 @@ To change the path of files and destination/build folder, edit options in **conf
      root: "./",
      src: {
         base: "./src",
-        css: "./src/css",
-        js: "./src/js",
-        img: "./src/img"
+        css: "./src/assets/css",
+        js: "./src/assets/js",
+        img: "./src/assets/img"
      },
      dist: {
          base: "./dist",
-         css: "./dist/css",
-         js: "./dist/js",
-         img: "./dist/img"
+         css: "./dist/assets/css",
+         js: "./dist/assets/js",
+         img: "./dist/assets/img"
      },
      build: {
          base: "./build",
-         css: "./build/css",
-         js: "./build/js",
-         img: "./build/img"
+         css: "./build/assets/css",
+         js: "./build/assets/js",
+         img: "./build/assets/img"
      }
   }
   ...
